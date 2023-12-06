@@ -1,0 +1,370 @@
+[
+    {
+        "name": "Dashboard",
+        "icon": "bx bx-home",
+        "url": "/"
+    },
+    {
+        "name": "Media",
+        "icon": "bx bx-images",
+        "url": "#",
+        "children": [
+            {
+                "name": "Media Gallery",
+                "url": "/media"
+            },
+            {
+                "name": "Add New",
+                "url": "/media/create"
+            },
+            {
+                "name": "Media Settings",
+                "url": "/media/settings"
+            }
+        ]
+    },
+    {
+        "name": "Comments",
+        "icon": "bx bx-comment-detail",
+        "url": "#",
+        "children": [
+            {
+                "name": "Product Reviews",
+                "url": "/products/reviews"
+            },
+            {
+                "name": "Post Replies",
+                "url": "/posts/replies"
+            }
+        ]
+    },
+    {
+        "name": "eCommerce",
+        "icon": "bx bx-cart-alt",
+        "url": "#",
+        "children": [
+            {
+                "name": "Coupons",
+                "url": "/ecommerce/coupons"
+            },
+            {
+                "name": "Orders",
+                "url": "/ecommerce/orders"
+            },
+            {
+                "name": "Customers",
+                "url": "/ecommerce/customers"
+            },
+            {
+                "name": "Reports",
+                "url": "#",
+                "children": [
+                    {
+                        "name": "Orders",
+                        "url": "/ecommerce/reports/orders"
+                    },
+                    {
+                        "name": "Customers",
+                        "url": "/ecommerce/reports/customers"
+                    },
+                    {
+                        "name": "Stock",
+                        "url": "/ecommerce/reports/stock"
+                    }
+                ]
+            },
+            {
+                "name": "Settings",
+                "url": "#",
+                "children": [
+                    {
+                        "name": "General",
+                        "url": "/ecommerce/settings"
+                    },
+                    {
+                        "name": "Products",
+                        "url": "/ecommerce/settings/products"
+                    },
+                    {
+                        "name": "Shipping",
+                        "url": "/ecommerce/settings/shipping"
+                    },
+                    {
+                        "name": "Payment",
+                        "url": "/ecommerce/settings/payment"
+                    },
+                    {
+                        "name": "Tax",
+                        "url": "/ecommerce/settings/tax"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Multivendor",
+        "icon": "bx bx-album",
+        "url": "#",
+        "children": [
+            {
+                "name": "Vendors",
+                "url": "/multivendor"
+            },
+            {
+                "name": "Withdraws",
+                "url": "/multivendor/withdraws"
+            },
+            {
+                "name": "Settings",
+                "url": "/multivendor/settings"
+            }
+        ]
+    },
+    {
+        "name": "Products",
+        "icon": "bx bx-gift",
+        "url": "#",
+        "children": [
+            {
+                "name": "All Products",
+                "url": "/products"
+            },
+            {
+                "name": "New Product",
+                "url": "/products/create"
+            },
+            {
+                "name": "Categories",
+                "url": "/products/categories"
+            },
+            {
+                "name": "Attributes",
+                "url": "/products/attributes"
+            },
+            {
+                "name": "Tags",
+                "url": "/products/tags"
+            }
+        ]
+    },
+    {
+        "name": "Posts",
+        "icon": "bx bx-calendar",
+        "url": "#",
+        "children": [
+            {
+                "name": "All Posts",
+                "url": "/posts"
+            },
+            {
+                "name": "New Post",
+                "url": "/posts/create"
+            },
+            {
+                "name": "Categories",
+                "url": "/posts/categories"
+            },
+            {
+                "name": "Tags",
+                "url": "/posts/tags"
+            }
+        ]
+    },
+    {
+        "name": "Users",
+        "icon": "bx bx-user",
+        "url": "#",
+        "children": [
+            {
+                "name": "All Users",
+                "url": "/users"
+            },
+            {
+                "name": "New User",
+                "url": "/users/create"
+            }
+        ]
+    },
+    {
+        "name": "Pages",
+        "icon": "bx bx-book-open",
+        "url": "#",
+        "children": [
+            {
+                "name": "Sign Up",
+                "url": "/pages/sign-up"
+            },
+            {
+                "name": "Sign In",
+                "url": "/pages/sign-in"
+            },
+            {
+                "name": "Forgot Password",
+                "url": "/pages/forgot-password"
+            },
+            {
+                "name": "Locked Screen",
+                "url": "/pages/locked-screen"
+            },
+            {
+                "name": "User Profile",
+                "url": "/pages/user-profile"
+            },
+            {
+                "name": "Session Timeout",
+                "url": "/pages/session-timeout"
+            },
+            {
+                "name": "Timeline",
+                "url": "/pages/timeline"
+            },
+            {
+                "name": "Invoice",
+                "url": "/pages/invoice"
+            },
+            {
+                "name": "Blank Page",
+                "url": "/pages/blank"
+            },
+            {
+                "name": "404",
+                "url": "/pages/404"
+            },
+            {
+                "name": "500",
+                "url": "/pages/500"
+            },
+            {
+                "name": "Log Viewer",
+                "url": "/pages/log-viewer"
+            }
+        ]
+    },
+    {
+        "name": "Elements",
+        "icon": "bx bx-list-ul",
+        "url": "#",
+        "children": [
+            {
+                "name": "Typography",
+                "url": "/elements"
+            },
+            {
+                "name": "Tabs",
+                "url": "/elements/tabs"
+            },
+            {
+                "name": "Cards",
+                "url": "/elements/cards"
+            },
+            {
+                "name": "Buttons",
+                "url": "/elements/buttons"
+            },
+            {
+                "name": "Alerts",
+                "url": "/elements/alerts"
+            },
+            {
+                "name": "Notifications",
+                "url": "/elements/notifications"
+            },
+            {
+                "name": "Modals",
+                "url": "/elements/modals"
+            },
+            {
+                "name": "Progress Bars",
+                "url": "/elements/progress-bars"
+            },
+            {
+                "name": "Carousels",
+                "url": "/elements/carousels"
+            },
+            {
+                "name": "Accordions",
+                "url": "/elements/accordions"
+            },
+            {
+                "name": "Toggles",
+                "url": "/elements/toggles"
+            },
+            {
+                "name": "Scrollable",
+                "url": "/elements/scrollables"
+            },
+            {
+                "name": "Charts",
+                "url": "/elements/charts"
+            },
+            {
+                "name": "Animations",
+                "url": "#",
+                "children": [
+                    {
+                        "name": "Appear",
+                        "url": "/elements/animations-appear"
+                    },
+                    {
+                        "name": "Hover",
+                        "url": "/elements/animations-hover"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Forms",
+        "icon": "bx bx-file",
+        "url": "#",
+        "children": [
+            {
+                "name": "Basic",
+                "url": "/forms"
+            },
+            {
+                "name": "Advanced",
+                "url": "/forms/advanced"
+            },
+            {
+                "name": "Validation",
+                "url": "/forms/validation"
+            },
+            {
+                "name": "Layouts",
+                "url": "/forms/layouts"
+            },
+            {
+                "name": "Wizard",
+                "url": "/forms/wizards"
+            }
+        ]
+    },
+    {
+        "name": "Tables",
+        "icon": "bx bx-table",
+        "url": "#",
+        "children": [
+            {
+                "name": "Basic",
+                "url": "/tables"
+            },
+            {
+                "name": "Advanced",
+                "url": "/tables/advanced"
+            },
+            {
+                "name": "Responsive",
+                "url": "/tables/responsive"
+            },
+            {
+                "name": "Editable",
+                "url": "/tables/editable"
+            },
+            {
+                "name": "Ajax",
+                "url": "/tables/ajax"
+            }
+        ]
+    }
+]
